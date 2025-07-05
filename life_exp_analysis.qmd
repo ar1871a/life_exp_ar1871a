@@ -14,7 +14,9 @@ gapminder::gapminder_unfiltered
 
 Here, I re-examine the analysis of Oeppen and Vaupel (2002).
 
-#Life Expectancy Analysis 
+#Life Expectancy Analysis
+
+Here is the code to organize the data for analysis. 
 ```{r}
 library(tidyverse)
 gapminder::gapminder_unfiltered  |> 
@@ -25,7 +27,3 @@ gapminder::gapminder_unfiltered  |>
   arrange(year) ->
   sumdat
 ```
-
-
-
-
